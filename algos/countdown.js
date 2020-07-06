@@ -4,6 +4,6 @@ function countdownFrom(value) {
     }
 }
 
-countdownFrom(10);
-countdownFrom(5);
-countdownFrom(12);
+// countdownFrom(10);
+// countdownFrom(5);
+// countdownFrom(12);
