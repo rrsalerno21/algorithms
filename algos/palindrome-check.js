@@ -1,13 +1,11 @@
 function isPalindrome(string) {
-    let backArr = [];
+    // or more concise
+    var reversedString = string
+        .split('')
+        .reverse()
+        .join('');
 
-    for (var i = string.length - 1; i >= 0; i--) {
-        backArr.push(string[i])
-    }
-
-    console.log(backArr);
-
-    return string === backArr.join('');
+    return string === reversedString;
 };
 
 // console.log(isPalindrome('hannah'));
