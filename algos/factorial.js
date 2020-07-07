@@ -8,6 +8,6 @@ function factorial(num) {
     console.log(fact);
 }
 
-factorial(0);
-factorial(3);
-factorial(15);
+// factorial(0);
+// factorial(3);
+// factorial(15);
